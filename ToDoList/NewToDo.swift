@@ -37,6 +37,8 @@ struct NewToDo: View {
     }
 }
 
+//struct//
+
 struct NewToDo_Previews: PreviewProvider {
     static var previews: some View {
         NewToDo(title: "", isImportant: false)
